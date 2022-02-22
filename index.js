@@ -53,3 +53,34 @@ console.log(a.value == c.value);  //the value is the same, but not the object
 
 
 //create 5 objects below:
+let bird = {
+  mass: 210,
+  favoriteSong: 'September',
+  breed: 'budgie'
+}
+console.log(bird.favoriteSong);
+let printer = {
+  ip: '172.18.28.13',
+  model: 'LaserJet M608',
+  make: 'Helwett-Packard'
+}
+console.log(printer.ip);
+let person = {
+  age: 47,
+  dob: '01/27/99',
+  ssn: '433-77-1234',
+  name: 'Janet'
+}
+console.log(person.name);
+let hardDisk = {
+  make: 'Micron',
+  type: 'Solid State',
+  capacity: 1024
+}
+console.log(hardDisk.capacity);
+let sku = {
+  number: 1234567,
+  type: 'Frozen Food',
+  aisle: 9
+}
+console.log(sku.number);
